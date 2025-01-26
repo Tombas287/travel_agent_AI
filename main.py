@@ -30,6 +30,10 @@ from dotenv import load_dotenv
 # Load environment variables from a .env file
 load_dotenv()
 
+serp_api_key = os.getenv("serp_api_key")
+RAPIDAPI_KEY = os.getenv("FLIGHT_API")
+api_key = os.getenv('API_KEY')
+
 # Mapping cities to their airport codes
 CITY_TO_AIRPORT_CODE = {
     "Mumbai": "BOM", "Bangalore": "BLR", "Delhi": "DEL", "Chennai": "MAA",
