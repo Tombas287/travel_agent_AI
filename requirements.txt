@@ -1,0 +1,12 @@
+langchain
+langchain-community
+requests
+pandas
+PyPDF2
+streamlit
+langchain-google-genai
+faiss-cpu
+duckduckgo-search
+serpapi
+wikipedia-api
+searx
