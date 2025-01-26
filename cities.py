@@ -11,7 +11,7 @@ def default_cities():
     return cities
 
 def check_email(user_id: str):
-    email_list = ["maxbasumatry@gmail.com", "divesh@gmail.com"]
+    email_list = ["maxbasumatry@gmail.com", "divesh121@gmail.com"]
     if user_id in email_list:
         return True
 
