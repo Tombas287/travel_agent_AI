@@ -13,5 +13,5 @@ python-dotenv
 serpapi
 google-search-results
 wikipedia
-google-search-res
+
 
