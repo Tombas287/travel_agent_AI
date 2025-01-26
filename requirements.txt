@@ -12,4 +12,5 @@ searx
 python-dotenv
 serpapi
 google-search-results
+wikipedia
 
