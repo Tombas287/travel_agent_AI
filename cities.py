@@ -1,3 +1,5 @@
+from libraries import st
+
 def default_cities():
     cities = [
         "Mumbai", "Bangalore", "Delhi", "Chennai", "Kolkata", "Hyderabad",
@@ -7,4 +9,12 @@ def default_cities():
     ]
 
     return cities
+
+def check_email(user_id: str):
+    email_list = ["maxbasumatry@gmail.com", "divesh@gmail.com"]
+    if user_id in email_list:
+        return True
+
+    st.sidebar.error("Email ID need to entered")
+    return False
 
