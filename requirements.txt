@@ -7,7 +7,8 @@ streamlit
 langchain-google-genai
 faiss-cpu
 duckduckgo-search
-serpapi
 wikipedia-api
 searx
 python-dotenv
+serpapi
+
