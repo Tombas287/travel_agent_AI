@@ -10,3 +10,4 @@ duckduckgo-search
 serpapi
 wikipedia-api
 searx
+python-dotenv
