@@ -25,6 +25,10 @@ import json
 import os
 import requests
 import pandas as pd
+from dotenv import load_dotenv
+
+# Load environment variables from a .env file
+load_dotenv()
 
 # Mapping cities to their airport codes
 CITY_TO_AIRPORT_CODE = {
